@@ -80,7 +80,7 @@
 
 
 
-4. #### 리스트 컴프리헨션<a name="comprehension"></a>
+4. ### 리스트 컴프리헨션<a name="comprehension"></a>
 
    리스트를 초기화하는 방법 중 하나이다.
 
