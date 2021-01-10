@@ -48,27 +48,27 @@
   >   ``` python
   >   	# 회의 개수 입력
   >   	n = int(input())
-  >   
+  >
   >   	arr = []
-  >   
+  >
   >     # 회의 시간 정보를 입력받아 리스트로 구현
   >     for _ in range(n):
   >         arr.append(list(map(int, input().split())))
-  >   
+  >
   >     end_day = 0
   >   	count = 0
-  >   
+  >
   >     # 회의 시간 정보를 정렬 ( 끝나는 날짜가 짧은 순으로 정렬한 후 시작 날짜가 짧은 순으로 정렬)
-  >   
+  >
   >     arr.sort(key=lambda x: (x[1], x[0]))
-  >   
+  >
   >     for i in range(len(arr)):
   >         # 현재 날짜가 다음 회의 시작날짜와 같거나 작으면
   >         if end_day <= arr[i][0]:
   >             # 회의 종료 날짜를 업데이트
   >            	end_day = arr[i][1]
   >             count += 1
-  >   
+  >
   >     print(count)
   >   ```
   >
@@ -88,21 +88,21 @@
   >   > 2. 시작하는 시간의 오름차순
   >
   >   위 2가지 조건을 모두 충족해야 올바른 코드가 된다.
-  >
-  > 
-  >
+  >   
+  >   
+  >   
   >   내가 모르고 있던 sort함수에서의 lambda 사용법이다. 아이템의 두 번째 인자를 먼저 오름차순 정렬하고, 첫 번째 인자를 오름차순으로 정렬하는 방법이다.
-  >
+  >   
   >   ```python
-  > arr.sort(key=lambda x: (x[1], x[0]))
+  >   arr.sort(key=lambda x: (x[1], x[0]))
   >   ```
-  >
+  >   
   >   아래는 아이템 첫 번째 인자를 오름차순으로 먼저 정렬하고, 두 번째 인자를 내림차순으로 정렬하는 방법이다.
-  >
-  >   ``` python
-  > arr.sort(key=lambda x: (x[0], -x[1]))
+  >   
+  >   ```python
+  >   arr.sort(key=lambda x: (x[0], -x[1]))
   >   ```
-  >
-  >   python 초보이다보니 lambda를 안썼었는데 지금부터 더 열심히 써봐야겠다..
+  >   
+  >   python 초보이다보니 lambda를 자 몰랐었는데 지금부터 더 열심히 쓰면서 익혀야겠다..
   >
   > 
