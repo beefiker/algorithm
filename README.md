@@ -21,9 +21,9 @@
 
 3. [DFS / BFS](DFSnBFS/)
    1. [DFS](DFSnBFS/DFS)
-    1. [얼음 얼려먹기](DFSnBFS/DFS/얼음얼려먹기)
+        1. [얼음 얼려먹기](DFSnBFS/DFS/얼음얼려먹기)
    2. [BFS](DFSnBFS/BFS)
-    1. [미로 탈출](DFSnBFS/BFS/미로탈출)
+        1. [미로 탈출](DFSnBFS/BFS/미로탈출)
  
  
 4. [정렬](정렬/)
