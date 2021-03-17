@@ -366,3 +366,5 @@
    
 
    
+7. ### 왜 인덱스는 0부터 시작하는걸까
+	[Why numbering should start at zero by prof.dr. Edsger W. Dijkstra](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)
